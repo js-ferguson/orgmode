@@ -1,0 +1,20 @@
+PROJECT IDEAS -*- mode: org -*- 
+
+* Build server
+  - git server with ci autobuild and deploy to apache/nginx
+  - local install of mariadb with a set of dummy data
+  - provides a live development server site to the internal network to preview the latest build
+  - running a btrfs for snapshots of the build directory
+
+* Database
+  - map the database to provide a visual chart of the db schema for easy reference
+  - export database tables to create a dummy set locally development 
+
+* Write comprehensive unit tests
+  - Can't do any large scale refactoring and code modifications on an unfamilar codebase without
+    some assurance that things will still work.
+  - Helps to get to know the codebase
+
+* Containerise the production environment
+  - make it portable in case it some day makes sense to host somewhere else.
+  - allows for orchestration via kubernetes to provide scalability. 
